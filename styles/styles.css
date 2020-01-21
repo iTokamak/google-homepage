@@ -1,0 +1,116 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 110px;
+}
+
+input {
+    border: none;
+    margin: auto auto;
+    display: block;
+    width: 450px;
+}
+
+.input-div {
+    display: flex;
+    margin: 20 auto auto auto;
+    border: 1px solid #e9eaed;
+    border-radius: 20px 20px 20px 20px;
+    height: 39px;
+    width: 560px;
+    
+}
+
+.input-div:hover {
+    display: flex;
+    margin: 20 auto auto auto;
+    border: 1px solid #e9eaed;
+    border-radius: 20px 20px 20px 20px;
+    height: 39px;
+    width: 560px;
+    box-shadow: 0px 0px 10px #e9eaed;
+}
+
+.button-div {
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    margin: 10px;
+    background-color: #f2f2f2;
+    padding: 10 15;
+    border: none;
+    font-size: 14px;
+    color: #5F6368;
+    border-radius: 5px;
+}
+
+.search-svg {
+    display: block;
+    margin: auto 10px;
+    width: 20px;
+    height: 20px;
+    fill: #a8adb3;
+}
+
+.google-mic-image{
+    width: 24px;
+    height: 24px;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    margin: auto 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    color: #7c7c7c;
+}
+
+li:hover{
+    display: inline;
+    padding: 5px;
+    color: #7c7c7c;
+    text-decoration: underline;
+}
+
+.nav-div{
+    padding: 0px;
+}
+
+
+.right-nav {
+    float: right;
+    padding: 10px;
+}
+
+.left-nav {
+    float: left;
+    padding: 10px;
+}
+
+
+.nav-div-bottom{
+    padding: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.nav-div-bot-single{
+    background-color: #f2f2f2;
+    width: 100%;
+    border: 1px solid #f0f0f0; 
+}
